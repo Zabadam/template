@@ -29,16 +29,16 @@ class Example extends StatelessWidget {
   Widget buildView({
     required double w,
     required double h,
-    required String subtitle,
+    String title = '',
+    String subtitle = '',
   }) =>
       SingleChildScrollView(
         child: Column(
           children: [
-            const SizedBox(height: 25),
-            const SizedBox(height: 25),
-            const Text(
-              'Title',
-              style: TextStyle(fontSize: 30, color: Colors.white),
+            const SizedBox(height: 50),
+            Text(
+              title,
+              style: const TextStyle(fontSize: 30, color: Colors.white),
             ),
             Text(
               subtitle,
