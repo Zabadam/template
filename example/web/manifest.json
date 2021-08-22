@@ -1,11 +1,11 @@
 {
-    "name": "package",
-    "short_name": "package",
+    "name": "template",
+    "short_name": "template",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "An ImageToo or DecorationImageToo is used to render images from the expected array of sources, but their `repeat` property is expanded. New options to tile an image seamlessly with alternating mirroring!",
+    "description": "template",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
