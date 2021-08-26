@@ -1,8 +1,13 @@
 import 'package:flutter/material.dart';
 
+// For quick Color -> MaterialColor conversion
 import 'package:spectrum/spectrum.dart';
 import 'package:template/template.dart';
+// For link to other Flutter packages by zaba.app
 import 'package:url_launcher/url_launcher.dart';
+
+/// [Colors.indigoAccent] -> [MaterialAccentColor.shade700]
+const color = Color(0xFF304FFE);
 
 void main() => runApp(const DemoFrame());
 
@@ -25,8 +30,6 @@ class DemoFrame extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final color = Colors.indigoAccent.shade700;
-
     return AnimatedTheme(
       data: ThemeData.from(
         colorScheme:
@@ -39,7 +42,7 @@ class DemoFrame extends StatelessWidget {
             debugShowCheckedModeBanner: false,
             color: color,
             theme: Theme.of(_context),
-            home: Demo(color),
+            home: const Demo(color),
             // home:
             //  const Material(color: Colors.transparent, child: SliderDemo()),
           );

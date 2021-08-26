@@ -1,19 +1,22 @@
 /// # template
-/// [![template header image](https://raw.githubusercontent.com/Zabadam/template/main/doc/img/header.gif)](https://pub.dev/packages/template/example 'Click to goto the pub.dev listing example source')
-/// ## [pub.dev Listing](https://pub.dev/packages/template) | [API Doc](https://pub.dev/documentation/template/latest) | [GitHub](https://github.com/Zabadam/template)
+// [![template logo](https://template.zaba.app/img/logo.gif)](https://pub.dev/packages/template/example 'Click to goto the pub.dev listing Example')
 ///
-/// (The following description is copied from `spectrum` for href structure.)
+/// [pub.dev Listing](https://pub.dev/packages/template) |
+/// [API Doc](https://pub.dev/documentation/template/latest) |
+/// [GitHub](https://github.com/Zabadam/template)
 ///
-/// A rainbow of `Color` and `Gradient` utilities such as [`GradientTween`](https://pub.dev/documentation/spectrum/latest/spectrum/GradientTween-class.html),
-/// gradient [`copyWith()`](https://pub.dev/documentation/spectrum/latest/spectrum/GradientUtils/copyWith.html)
-/// any potential parameters for the many types, [`complementary()`](https://pub.dev/documentation/spectrum/latest/spectrum/SpectrumUtils/complementary.html)
-/// for colors, [`AnimatedGradient`](https://pub.dev/documentation/spectrum/latest/spectrum/AnimatedGradient-class.html),
-/// [`MaterialColor` generation](https://pub.dev/documentation/spectrum/latest/spectrum/SpectrumUtils/materialColor.html),
-/// and more!
+/// TODO:
+/// **API References: [`Class`](https://pub.dev/documentation/template/latest/template/Class-class.html) |
+/// [`method()`](https://pub.dev/documentation/template/latest/template/method.html)**
+///
+/// TODO: Short description. Provides [Template].
 ///
 /// ---
 ///
-/// #### API References: [`Class`](https://pub.dev/documentation/template/latest/template/Class-class.html) | [`method()`](https://pub.dev/documentation/template/latest/template/method.html)
+/// TODO: Longer description. Perhaps modular library explanation. Sample code.
 library template;
+
+/// For doc references here.
+import 'src/template.dart';
 
 export 'src/template.dart';
